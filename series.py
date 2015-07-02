@@ -1,5 +1,9 @@
 import os
 import math
+
+#How to run first two case and last case?
+#For first two case u should comment the ob.smalest_str()
+#For last case u should comment the ob.do()
 class Series():
     
     dict_glb={}
@@ -33,8 +37,6 @@ class Series():
             r=b/x
             s_str=s_str+chr(64+d)*r
             b=b%x
-
-            
         print s_str
         
 
